@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "fancyScript";
+  src: url("./fonts/fancyScript.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sail";
+  src:url("/Party.E-vite/fonts/Sail-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: rgb(180, 211, 178);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#container1 {
+  font-family: "myFont", "Sail", cursive, serif;
+  font-size: 60px;
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: dotted 5px pink;
+}
+#teacup {
+  max-width: 700px;
+  margin: 8px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  align-content: center;
+  border-radius: 12px;
+}
+#container1 h1 {
+  margin-top: 0;
+  font-family: "myFont", "Sail", cursive, serif;
+  font-size: 48px;
+  color: #bc9300;
+}
+#container1 p {
+  margin: 8px;
+  color: #bc9300;
+  font-family: "myFont", "Sail", cursive, serif;
+  font-size: 30px;
+}
+p {
+  font-size: large;
+  color: #984266;
+}
+#container2 {
+  margin: 30px auto 10px;
+  border: dotted 5px pink;
+  max-width: 700px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+}
+#container2 p {
+  font-family: "myFont", "Sail", cursive, serif;
+  font-size: 20px;
+  max-width: 700px;
+  color: #bc9300;
+  line-height: 1.4;
+}
+.rsvp-button {
+  background-color: #dc86aa;
+  border: 2px solid #ec8eb5;
+  color: #f79fbc;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
